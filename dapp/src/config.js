@@ -11,8 +11,8 @@ var txDefaultOrig =
     "imprint": "https://wallet.gnosis.pm/imprint.html"
   },
   gasLimit: 3141592,
-  gasPrice: 18000000000,
-  ethereumNode: "https://mainnet.infura.io:443",
+  gasPrice: 180000000,
+  ethereumNode: "https://rpc.xerom.org",
   connectionChecker: {
     method : "OPTIONS",
     url : "https://www.google.com",
@@ -25,9 +25,9 @@ var txDefaultOrig =
     checkInterval: 15000
   },
   wallet: "injected",
-  defaultChainID: null,
+  defaultChainID: 1313500,
   // Mainnet
-  walletFactoryAddress: "0x6e95c8e8557abc08b46f3c347ba06f8dc012763f",
+  walletFactoryAddress: "0x6d6840d528cbe105a613170de7daec7d5054871c",
   tokens: [
     {
       'address': '0x6810e776880c02933d47db1b9fc05908e5386b96',
@@ -141,7 +141,7 @@ if (isElectron) {
 var txDefault = {
   ethereumNodes : [
     {
-      url : "https://mainnet.infura.io:443",
+      url : "https://rpc.xerom.org",
       name: "Remote Mainnet"
     },
     {
@@ -164,7 +164,7 @@ var txDefault = {
   walletFactoryAddresses: {
     'mainnet': {
       name: 'Mainnet',
-      address: txDefaultOrig.walletFactoryAddress
+      address: '0x6d6840d528cbe105a613170de7daec7d5054871c'
     },
     'ropsten': {
       name: 'Ropsten',
@@ -179,8 +179,8 @@ var txDefault = {
       address: '0x19ba60816abca236baa096105df09260a4791418'
     },
     'privatenet': {
-      name: 'Privatenet',
-      address: '0xd79426bcee5b46fde413ededeb38364b3e666097'
+      name: 'Xerom',
+      address: '0x6d6840d528cbe105a613170de7daec7d5054871c'
     }
   }
 };

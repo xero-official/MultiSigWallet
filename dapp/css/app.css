@@ -21,10 +21,10 @@ html {
 
 body {
     padding-top: 70px;
-    background-image: url(../img/gnosis-logo.svg);
+    background-image: url(../img/xerom.png);
     background-repeat: no-repeat;
     background-position: bottom center;
-    background-size: 512px;
+    background-size: 500px;
     background-attachment: fixed;
 }
 
@@ -87,24 +87,24 @@ textarea.json-config {
 }
 
 /*.ui-select-choices-row:hover {
-  background-color: #143e4d !important;
+  background-color: #308968 !important;
 }
 
 .ui-select-bootstrap .ui-select-choices-row>span:hover {
-  background-color: #143e4d !important;
+  background-color: #308968 !important;
 }
 
 .ui-select-bootstrap .ui-select-choices-row.active > span {
-  background-color: #143e4d !important;
-  color: #1f7692 !important;
+  background-color: #308968 !important;
+  color: #000000 !important;
 }
 
 .ui-select-bootstrap .ui-select-choices-row > span {
-  color: #1f7692 !important;
+  color: #000000 !important;
 }
 
 .ui-select-bootstrap .ui-select-choices-row > span:hover {
-  color: #1f7692 !important;
+  color: #000000 !important;
 }*/
 
 input[name="editable-select"]:disabled {
@@ -113,7 +113,7 @@ input[name="editable-select"]:disabled {
 
 .editable-select {
   color: #fff;
-  background: #143e4d;
+  background: #308968;
 }
 
 .settings-dropdown-menu {
@@ -129,12 +129,12 @@ input[name="editable-select"]:disabled {
 }
 
 .settings-dropdown-menu li:hover {
-  background: #143e4d !important;
-  color: #1f7692 !important;
+  background: #308968 !important;
+  color: #000000 !important;
 }
 
 .settings-caret-container {
-  background: #143e4d !important;
+  background: #308968 !important;
 }
 
 .seed {
@@ -168,7 +168,7 @@ input[name="editable-select"]:disabled {
   bottom: 0;
   left: 0;
   width: 100vw;
-  background: #182a36;
+  background: #308968;
   padding: 0;
   text-align: center;
 }
