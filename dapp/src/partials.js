@@ -1313,7 +1313,7 @@ angular.module('multiSigWeb').run(['$templateCache', function($templateCache) {
     "      For using the application, you have to agree with our <a href=\"#\" ng-click=\"openTerms()\">Terms of Use</a> and <a href=\"#\" ng-click=\"openPolicy()\">Privacy Policy</a>.\n" +
     "  </p>\n" +
     "  <p>\n" +
-    "    Make sure you're using the wallet hosted at https://whirlpool.xerom.org.\n" +
+    "    Make sure you're using the wallet hosted at http://decentralizedhosting.online/.\n" +
     "  </p>\n" +
     "  <p>\n" +
     "    All smart contracts have been audited carefully multiple times.\n" +
