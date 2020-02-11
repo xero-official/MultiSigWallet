@@ -12,7 +12,7 @@ var txDefaultOrig =
   },
   gasLimit: 3141592,
   gasPrice: 180000000,
-  ethereumNode: "https://rpc.xerom.org",
+  ethereumNode: "https://rpc.ether1.org",
   connectionChecker: {
     method : "OPTIONS",
     url : "https://www.google.com",
@@ -25,7 +25,7 @@ var txDefaultOrig =
     checkInterval: 15000
   },
   wallet: "injected",
-  defaultChainID: 1313500,
+  defaultChainID: 1313114,
   // Mainnet
   walletFactoryAddress: "0x6d6840d528cbe105a613170de7daec7d5054871c",
   tokens: [
