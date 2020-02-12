@@ -22,7 +22,7 @@ html {
 
 body {
     padding-top: 70px;
-    background-image: url(../img/Ether1.png);
+    background-image: url(../img/xerom.png);
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: 500px;
@@ -422,6 +422,7 @@ optgroup {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+  background-color: #673AB7;
 }
 td,
 th {
@@ -4718,8 +4719,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #840032;
-  border-color: #840032;
+  background-color: #ff09ec;
+  border-color: #0221ff;
 }
 .navbar-default .navbar-brand {
   color: #000000;
@@ -5902,9 +5903,9 @@ button.list-group-item-danger.active:focus {
   border-color: #840032;
 }
 .panel-default > .panel-heading {
-  color: #000000;
-  background-color: #840032;
-  border-color: #840032;
+  color: #ffffff;
+  background-color: #33ff00;
+  border-color: #ffec07;
 }
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #840032;
