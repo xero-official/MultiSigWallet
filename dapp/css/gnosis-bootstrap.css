@@ -176,6 +176,7 @@ optgroup {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+  background-color: #673AB7;
 }
 td,
 th {
@@ -1074,8 +1075,8 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #000000;
-  background-color: #ad1750;
+  color: #f5ff56;
+  background-color: #f5ff56;
 }
 input,
 button,
@@ -2236,7 +2237,7 @@ pre code {
   }
 }
 table {
-  background-color: transparent;
+  background-color: #673AB7;
 }
 caption {
   padding-top: 8px;
@@ -2305,7 +2306,7 @@ th {
   border-bottom-width: 2px;
 }
 .table-striped > tbody > tr:nth-of-type(odd) {
-  background-color: #840032;
+  background-color: #5cfff7;
 }
 .table-hover > tbody > tr:hover {
   background-color: #840032;
@@ -4472,8 +4473,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #840032;
-  border-color: #840032;
+  background-color: #ff09ec;
+  border-color: #0221ff;
 }
 .navbar-default .navbar-brand {
   color: #000000;
@@ -5656,9 +5657,9 @@ button.list-group-item-danger.active:focus {
   border-color: #840032;
 }
 .panel-default > .panel-heading {
-  color: #000000;
-  background-color: #840032;
-  border-color: #840032;
+  color: #ffffff;
+  background-color: #33ff00;
+  border-color: #ffec07;
 }
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #840032;

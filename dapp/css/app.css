@@ -168,7 +168,7 @@ input[name="editable-select"]:disabled {
   bottom: 0;
   left: 0;
   width: 100vw;
-  background: #840032;
+  background: #4c752d;
   padding: 0;
   text-align: center;
 }
@@ -226,11 +226,11 @@ input[name="editable-select"]:disabled {
 } */
 
 /* .safe-features li::before {
-  content: "\2022"; 
-  color: #1ba5c2; 
-  font-weight: bold; 
-  display: inline-block; 
-  width: 1em; 
+  content: "\2022";
+  color: #1ba5c2;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
   margin-left: -1em;
 } */
 
